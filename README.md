@@ -1,7 +1,7 @@
 # Ultimate-Tic-Tac-Toe
 ## Programming language: C++(Qt)
 
-The ultimate tic tac toe game is one of my projects that I started in college and built on at home. Here is a link to the game instructions: https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe.
+The ultimate tic tac toe game is one of my projects that I started in college and built on at home. The main goal of the project was to show my skills in object-oriented programming. Here is a link to the game instructions: https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe.
 
 At the begining you can choose whether you want to play against the computer or your opponent. The computer automatically chooses a move that is legal.
 
@@ -14,7 +14,10 @@ Class **IgralnoPolje** is designed as usual tic-tac-toe game.
 Class **VelikoIgralnoPolje** is seald class. On the whole game board we can look as a game of classical tic-tac-toe on nine boards. The class contains an array type IgralnoPolje that has size 3x3. It also contains information about the player on the move and the square in which the player must play the next move (that square is colored green).
 ![image](https://user-images.githubusercontent.com/92547922/208772838-d566d9e3-ff7b-445a-a6dc-7cb9a1690326.png)
 
-In class **MainWindow** there are methods poteza and spremeniBarvoOzadjaKvadrata. In method poteza, the move is performed. The details of the method are written in the comments next to the code.
+In class **MainWindow** there are methods poteza and spremeniBarvoOzadjaKvadrata. 
+
+In method poteza, the move is performed. The details of the method are written in the comments next to the code.
+
 The spremeniBarvoOzadjaKvadrata method causes the game board backgrounds to be colored. Green are the squares into which the next move is legal. Blue and red are the fields in which one of the players won. The fields in which there is a tie are yellow.
 ![image](https://user-images.githubusercontent.com/92547922/208775402-6eeef259-578e-40c6-bb89-5212c2d7ac5c.png)
 
